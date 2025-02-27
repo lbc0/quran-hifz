@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Quran Hifz",
+    "slug": "quran-hifz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lbcrorg.quranhifz"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lbcrorg.quranhifz"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9f5c588e-82d6-450c-9d11-302ad943636f"
+      }
+    },
+    "owner": "lbcr-org",
+    "updates": {
+      "url": "https://u.expo.dev/9f5c588e-82d6-450c-9d11-302ad943636f"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
